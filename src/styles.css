@@ -21,11 +21,15 @@ ul {
   line-height: 1.5;
 }
 
+.container {
+  margin: 0;
+  padding: 20;
+}
 .weather-app {
   border: 1px solid lightgray;
   border-radius: 15px;
   padding: 20px;
-  margin: 30px;
+  margin: 30px 0 0 0;
   width: 600px;
 }
 
@@ -73,4 +77,14 @@ ul {
   text-align: center;
   font-size: 30;
   font-weight: 200px;
+}
+
+#open-source-link {
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+#open-source-text {
+  display: inline;
+  font-size: 14px;
 }
